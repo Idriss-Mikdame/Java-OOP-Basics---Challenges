@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
 
@@ -14,6 +15,11 @@ public class Main {
         obj3.setBalance(66);
         System.out.println(obj3.getAccountNumber());
         System.out.println(obj3.isBalance());
+        System.out.println("---------------------------------");
+        Dog obj5 = new Dog();
+        obj5.makeSXound();
+        obj5.makeSound();
+
 
     }
 }
