@@ -3,5 +3,8 @@ public class Main {
 
         Personne obj1 = new Personne("idrss",22);
         obj1.Mymethed();
+        System.out.println("--------------------------------");
+        Student obj2 = new Student("idriss",22,"A");
+        obj2.VarStudent();
     }
 }
